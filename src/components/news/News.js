@@ -61,7 +61,7 @@ const News = (props) => {
                 description={element.description ? element.title : ""}
                 date={element.publishedAt}
                 author={element.author ? element.author : "unknown"}
-                newsurl={element.newsurl}
+                newsurl={element.url}
                 source={element.source.name}
                 key={index}
               />
